@@ -21,6 +21,12 @@
       rel="stylesheet"
     />
 
+    <!-- ---- font awesome ---- -->
+    <script
+      src="https://kit.fontawesome.com/8d3c13524b.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- ---- tailwind custom colors ---- -->
     <script>
       tailwind.config = {
@@ -28,7 +34,7 @@
           extend: {
             colors: {
               clifford: "#da373d",
-              'text-cccc': "#0462f9",
+              "text-cccc": "#0462f9",
             },
           },
         },
@@ -43,13 +49,40 @@
     </style>
   </head>
 
-  <body class="font-manrope">
-    
-    <header></header>
+  <body class="font-manrope my-16">
+    <header class="container mx-auto">
+      <div class="hero">
+        <div class="hero-content flex-col lg:flex-row">
+          <div>
+            <h1 class="text-7xl font-bold">
+              It's good <br />
+              tea time at The <br />
+              Tea House
+            </h1>
+            <p class="py-6">
+              Tea and Botanical Solutions Supplier Give <br />
+              Optimum Satisfaction To Your Taste Buds.
+            </p>
+            <button class="btn btn-primary">Explore More</button>
+          </div>
+          <div>
+            <img src="images/banner.png" class="max-w-sm" />
+            <div
+              class="relative -mt-20 flex items-center justify-center gap-3 shadow-lg shadow-[#e7e7e7] rounded-xl bg-white p-4  w-72"
+            >
+              <i class="fa-solid fa-star text-5xl text-[#FFC850]"></i>
+              <div>
+                <h3 class="text-3xl font-extrabold">5.00</h3>
+                <p class="text-base">Trust Pilot Ratings</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-    <main></main>
+    <main class="container mx-auto"></main>
 
     <footer></footer>
-
   </body>
 </html>
