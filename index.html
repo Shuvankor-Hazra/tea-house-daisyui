@@ -52,8 +52,8 @@
       }
     </style>
   </head>
-
   <body class="font-manrope lg:pt-16 md:pt-8 pt-4">
+    <!-- ---- header section ---- -->
     <header class="my-container">
       <div class="">
         <div class="hero-content flex-col lg:flex-row justify-between">
@@ -84,7 +84,6 @@
         </div>
       </div>
     </header>
-
     <main class="my-container">
       <!-- ---- Featured section ---- -->
       <section class="text-center lg:my-24 md:my-12 my-6 px-3 lg:px-0">
@@ -148,8 +147,7 @@
           </div>
         </div>
       </section>
-
-      <!-- ---- Great Tea, Freshly Presented ---- -->
+      <!-- ---- Great Tea Presented section ---- -->
       <section class="lg:my-24 md:my-12 my-6 px-3 lg:px-0">
         <div class="flex flex-col lg:flex-row gap-12">
           <div class="grid gap-8 grid-cols-1 lg:grid-cols-2 flex-1">
@@ -194,12 +192,11 @@
           </div>
         </div>
       </section>
-
-      <!-- ---- Meet Our Super Clients ---- -->
+      <!-- ---- Super Clients section ---- -->
       <section
-        class="lg:my-24 md:my-12 my-6 rounded-xl bg-gradient-to-l from-[#F00] to-[#FF8938] flex flex-col lg:flex-row px:4 lg:px-16 py-4 lg:py-24 gap-20"
+        class="px-8 lg:my-24 md:my-12 my-6 rounded-xl bg-gradient-to-l from-[#F00] to-[#FF8938] flex flex-col lg:flex-row  "
       >
-        <div class="flex flex-col justify-center flex-1 gap-8">
+        <div class="flex flex-col justify-center flex-1 gap-8 px:8 lg:px-16 py-12 lg:py-24">
           <h2 class="text-5xl font-extrabold text-white">
             Meet Our Super Clients
           </h2>
@@ -209,16 +206,14 @@
             humour, or randomly words which don't look even slightly believable.
           </p>
           <div>
-            <button class="btn btn-neutral">
-              Show All
-            </button>
+            <button class="btn btn-neutral">Show All</button>
           </div>
         </div>
         <!-- ---- review side -->
-        <div class="relative">
+        <div class="relative lg:px-16 py-10 lg:py-24">
           <!-- ---- top review ---- -->
           <div
-            class="px-10 py-8 bg-white rounded-lg relative z-10 h-[233px] w-[433px] space-y-2 opacity-40 mb-16"
+            class="p-10 bg-white rounded-lg relative z-10 lg:h-[233px] lg:w-[433px] opacity-40 mb-20"
           >
             <img
               src="images/client.png"
@@ -237,7 +232,7 @@
           </div>
           <!-- ---- meddle review ---- -->
           <div
-            class="px-10 py-8 bg-white rounded-lg absolute z-20 h-[233px] w-[433px] space-y-2 top-36 right-28"
+            class="p-10 bg-white rounded-lg absolute z-20 lg:h-[233px] lg:w-[433px] top-1/3 lg:right-1/3"
           >
             <img
               src="images/client.png"
@@ -256,7 +251,7 @@
           </div>
           <!-- ---- bottom review ---- -->
           <div
-            class="px-10 py-8 bg-white rounded-lg relative z-10 h-[233px] w-[433px] space-y-2 opacity-40"
+            class="p-10 bg-white rounded-lg relative z-10 lg:h-[233px] lg:w-[433px] opacity-40"
           >
             <img
               src="images/client.png"
@@ -275,8 +270,82 @@
           </div>
         </div>
       </section>
+      <!-- ---- News & Events section ---- -->
+      <section class="lg:my-24 md:my-12 my-6 px-3 lg:px-0">
+        <div class="text-center">
+          <h3 class="text-5xl font-extrabold">News & Events</h3>
+          <p class="text-lg font-medium mt-5 mb-12">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+        <!-- ---- News & Events card container ---- -->
+        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6">
+          <!-- ---- card 1 ---- -->
+          <div class="card border border-[#D2D2D2]">
+            <figure class="p-5">
+              <img
+                src="images/news-1.png"
+                alt="Tea"
+                class="rounded-xl min-w-full"
+              />
+            </figure>
+            <div class="card-body pt-0">
+              <p class="text-base font-semibold">Feb 05, 2027</p>
+              <h3 class="text-xl font-extrabold">
+                Collecting 8 points for discount
+              </h3>
+              <p class="text-base font-semibold">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <h3 class="text-xl font-extrabold">Learn More</h3>
+            </div>
+          </div>
+          <!-- ---- card 2 ---- -->
+          <div class="card border border-[#D2D2D2]">
+            <figure class="p-5">
+              <img
+                src="images/news-2.png"
+                alt="Tea"
+                class="rounded-xl min-w-full"
+              />
+            </figure>
+            <div class="card-body pt-0">
+              <p class="text-base font-semibold">Feb 05, 2027</p>
+              <h3 class="text-xl font-extrabold">
+                Collecting 8 points for discount
+              </h3>
+              <p class="text-base font-semibold">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <h3 class="text-xl font-extrabold">Learn More</h3>
+            </div>
+          </div>
+          <!-- ---- card 3 ---- -->
+          <div class="card border border-[#D2D2D2]">
+            <figure class="p-5">
+              <img
+                src="images/news-3.png"
+                alt="Tea"
+                class="rounded-xl min-w-full"
+              />
+            </figure>
+            <div class="card-body pt-0">
+              <p class="text-base font-semibold">Feb 05, 2027</p>
+              <h3 class="text-xl font-extrabold">
+                Collecting 8 points for discount
+              </h3>
+              <p class="text-base font-semibold">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <h3 class="text-xl font-extrabold">Learn More</h3>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-
     <footer></footer>
   </body>
 </html>
